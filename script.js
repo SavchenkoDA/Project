@@ -59,7 +59,18 @@ $(".reviews-slide").on("afterChange", function() {
     $(".current").html("0"+(dataId+=1))
 });
   
-  
+  $(".PartnersSlider1").slick({
+    adaptiveHeight: false,
+    mobileFirst: true,
+    dots: false,
+    arrows: false,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    centerPadding:"16%",
+    responsive: [
         {
           breakpoint: 768,
           settings: {
